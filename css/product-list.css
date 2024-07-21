@@ -1,0 +1,119 @@
+/* ----Product:1---- */
+#product-1 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/Starship_Torch_smpres_photo_72867c75-60cd-41c2-b0cb-de310df5708b_1200x.jpg?v=1700238143');
+}
+#product-1:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/torch_smore_web_1600x.jpg?v=1700238143');
+}
+
+/* ----Product:2---- */
+#product-2 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight4_Tshirt_900x.png?v=1717030767');
+}
+#product-2:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT4_UNISEX-BLACK-FRONT_900x.png?v=1717030767');
+}
+
+/* ----Product:3---- */
+#product-3 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight4_Patch_800x.png?v=1717023213');
+}
+#product-3:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceX_Starship_Flight4_Patch_800x.png?v=1717023213');
+}
+
+/* ----Product:4---- */
+#product-4 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT3_UNISEX-BLACK-BACK_900x.png?v=1706825113');
+}
+#product-4:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT4_UNISEX-BLACK-FRONT_900x.png?v=1717030767');
+}
+
+/* ----Product:5---- */
+#product-5 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT2_MENS-BLACK-BACK_900x.png?v=1693602833');
+}
+#product-5:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT4_UNISEX-BLACK-FRONT_900x.png?v=1717030767');
+}
+
+/* ----Product:6---- */
+#product-6 {
+    background-image: url('https://shop.spacex.com/cdn/shop/products/STARSHIPTESTFLIGHT_MENS-T-SHIRT-BLACK-BACK_900x.png?v=1678921529');
+}
+#product-6:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPFLIGHT4_UNISEX-BLACK-FRONT_900x.png?v=1717030767');
+}
+
+/* ----Product:7---- */
+#product-7 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXBoosterFullyStacked_900x.png?v=1699917818');
+}
+#product-7:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/StarshipBoosterOpenedPackaging_900x.png?v=1699917817');
+}
+
+/* ----Product:8---- */
+#product-8 {
+    background-image: url('https://shop.spacex.com/cdn/shop/products/Unknown-1_900x.png?v=1681580111');
+}
+#product-8:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/products/Unknown-2_900x.png?v=1681580111');
+}
+
+/* ----Product:9---- */
+#product-9 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/hotstage_900x.png?v=1710198422');
+}
+#product-9:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/hotstage_booster_1_900x.png?v=1710198422');
+}
+
+/* ----Product:10---- */
+#product-10 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPTESTFLIGHTPATCH_900x.png?v=1713917623');
+}
+#product-10:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/STARSHIPTESTFLIGHTPATCH_900x.png?v=1713917623');
+}
+
+/* ----Product:11---- */
+#product-11 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXStarshipFlight2Patch_e4da0f89-3dd7-4a62-9d2d-bc4227ebaa85_800x.png?v=1713917297');
+}
+#product-11:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXStarshipFlight2Patch_e4da0f89-3dd7-4a62-9d2d-bc4227ebaa85_800x.png?v=1713917297');
+}
+
+/* ----Product:12---- */
+#product-12 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXStarshipFlight3Patch_800x.png?v=1707174435');
+}
+#product-12:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXStarshipFlight3Patch_800x.png?v=1707174435');
+}
+
+/* ----Product:13---- */
+#product-13 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXMemesStreetSign2_900x.png?v=1710178448');
+}
+#product-13:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceXMemesStreetSignIRL_900x.png?v=1710178448');
+}
+
+/* ----Product:14---- */
+#product-14 {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SpaceX_Launchday_Socks_900x.png?v=1707416403');
+}
+#product-14:hover {
+    background-image: url('https://shop.spacex.com/cdn/shop/files/SX_Launchday_Socks_2_900x.png?v=1707416403');
+}
+
+/* ----Product:15---- */
+    #product-15 {
+         background-image: url('https://shop.spacex.com/cdn/shop/files/SpacexYearofDragonTeeBlackFront_900x.png?v=1709407468');
+    }
+    #product-15:hover {
+         background-image: url('https://shop.spacex.com/cdn/shop/files/SpacexYearofDragonTeeBlackBack_900x.png?v=1709407468');
+    }
