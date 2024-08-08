@@ -10,75 +10,94 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/product-list.css">
 </head>
+
 <body>
-        <div class="navbar">
-            <div class="logo">
-                <a href="#"><img src="images/logo.webp" alt=""></a>
-                <!-- <h1 class="Header__Logo">
-                    <a href="/" class="Header__LogoLink">
-                        <img class="Header__LogoImage Header__LogoImage--primary" src="//shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x.png?v=1614778073" srcset="//shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x.png?v=1614778073 1x, //shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x@2x.png?v=1614778073 2x" width="160" alt="SpaceX Store">
-                    </a>
-                </h1> -->
-            </div>
-            <!-- <a href="#" class="btn">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a> -->
-            <div class="menu">
-                <div class="drp-menu-section">
-                    <div class="dropdown-menu">  
-                        <button class="dropbtn">Mens</button>
-                        <div class="dropdown-content">
-                            <div class="top-line"></div>
-                            <a href="#">Shirts</a>
-                            <a href="#">Outerwear</a>
-                            <a href="#">View all</a>
-                        </div>
-                    </div>
+<!-- Header -->
+       <div class="navbar">
+        <!-- Logo -->
+           <div class="logo">
+               <a href="#"><img src="images/logo.webp" alt=""></a>
+           </div>
 
-                    <div class="dropdown-menu">  
-                        <button class="dropbtn">woMens</button>
-                        <div class="dropdown-content">
-                            <div class="top-line"></div>
-                            <a href="#">Shirts</a>
-                            <a href="#">Outerwear</a>
-                            <a href="#">View all</a>
-                        </div>
-                    </div>
+        <!-- Dropdown menu -->
+           <div class="menu">
+               <div class="drp-menu-section">
+                   <div class="dropdown-menu">  
+                       <button class="drop-btn">Mens</button>
+                       <div class="dropdown-list">
+                           <div class="top-line"></div>
+                           <a href="#">Shirts</a>
+                           <a href="#">Outerwear</a>
+                           <a href="#">View all</a>
+                       </div>
+                   </div>
+                   <div class="dropdown-menu">  
+                       <button class="drop-btn">woMens</button>
+                       <div class="dropdown-list">
+                           <div class="top-line"></div>
+                           <a href="#">Shirts</a>
+                           <a href="#">Outerwear</a>
+                           <a href="#">View all</a>
+                       </div>
+                   </div>
+                   <div class="dropdown-menu">  
+                       <button class="drop-btn">kids</button>
+                       <div class="dropdown-list">
+                           <div class="top-line"></div>
+                           <a href="#">Shirts</a>
+                           <a href="#">Outerwear</a>
+                           <a href="#">View all</a>
+                       </div>
+                   </div>
+                   <div class="dropdown-menu">  
+                       <button class="drop-btn">accessories</button>
+                       <div class="dropdown-list">
+                           <div class="top-line"></div>
+                           <a href="#">View all</a>
+                       </div>
+                   </div>
+               </div>
+         <!-- User section menu -->
+               <div class="navbar-links cart-section">
+                   <ul>
+                       <li class=""><a href="#">Account</a></li>
+                       <li class=""><a href="#">Search</a></li>
+                       <li ><a class="active" href="#">Cart (0)</a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
 
-                    <div class="dropdown-menu">  
-                        <button class="dropbtn">kids</button>
-                        <div class="dropdown-content">
-                            <div class="top-line"></div>
-                            <a href="#">Shirts</a>
-                            <a href="#">Outerwear</a>
-                            <a href="#">View all</a>
-                        </div>
-                    </div>
-                    <div class="dropdown-menu">  
-                        <button class="dropbtn">accessories</button>
-                        <div class="dropdown-content">
-                            <div class="top-line"></div>
-                            <a href="#">View all</a>
-                        </div>
-                    </div>
+        <!-- For media quary -->
+         <div class="nav-mini">
+            <div class="row">
+                <div class="col col-span ">
+                    <a href="#" id="btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a> 
                 </div>
-            
-                <div class="navbar-links cart-section">
-                    <ul>
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">Search</a></li>
-                        <li id="cart"><a href="#">Cart (0)</a></li>
-                    </ul>
+                <div class="col logo"><a href="#"><img src="images/logo.webp" alt=""></a></div>
+                <div class="col col-icon">
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-bag"></i>   
                 </div>
             </div>
-        </div>
-    <div class="banner"></div>
 
-    <h1>TRENDING</h1>
+         </div>
+        <!-- Media quary end -->
+    <!-- Header end -->
+
+        <div class="banner">
+            <img class="banner-img" src="https://shop.spacex.com/cdn/shop/files/X_collection_olive_hoodie_photo_main_page_2200x.png?v=1695400972" alt="">
+        </div> <!-- Banner -->
+
+    <!-- Item container -->
+    <h1>TRENDING</h1>  <!-- Page heading -->
 
     <div class="container">
+        <!-- Items-1 -->
         <div class="items">
             <div class="images" id="product-1"></div>
             <div class="item-title">
@@ -87,6 +106,7 @@
             </div> 
         </div>
 
+        <!-- Item-2 -->
         <div class="items">
             <div class="images" id="product-2"></div>
             <div class="item-title">
@@ -95,6 +115,7 @@
             </div> 
         </div>
         
+        <!-- Item-3 -->
         <div class="items">
             <div class="images" id="product-3"></div>
             <div class="item-title">
@@ -103,6 +124,7 @@
             </div> 
         </div>
         
+        <!-- Item-4 -->
         <div class="items">
             <div class="images" id="product-4"></div>
             <div class="item-title">
@@ -111,6 +133,7 @@
             </div> 
         </div>
         
+        <!-- Item-5 -->
         <div class="items">
             <div class="images" id="product-5"></div>
             <div class="item-title">
@@ -119,6 +142,7 @@
             </div> 
         </div>
         
+        <!-- Item-6 -->
         <div class="items">
             <div class="images" id="product-6"></div>
             <div class="item-title">
@@ -127,6 +151,7 @@
             </div> 
         </div>
         
+        <!-- Item-7 -->
         <div class="items">
             <div class="images" id="product-7"></div>
             <div class="item-title">
@@ -135,6 +160,7 @@
             </div> 
         </div>
         
+        <!-- Item-8 -->
         <div class="items">
             <div class="images" id="product-8"></div>
             <div class="item-title">
@@ -143,6 +169,7 @@
             </div> 
         </div>
         
+        <!-- Item-9 -->
         <div class="items">
             <div class="images" id="product-9"></div>
             <div class="item-title">
@@ -151,6 +178,7 @@
             </div> 
         </div>
         
+        <!-- Item-10 -->
         <div class="items">
             <div class="images" id="product-10"></div>
             <div class="item-title">
@@ -159,6 +187,7 @@
             </div> 
         </div>
         
+        <!-- Item-11 -->
         <div class="items">
             <div class="images" id="product-11"></div>
             <div class="item-title">
@@ -167,6 +196,7 @@
             </div> 
         </div>
         
+        <!-- Item-12 -->
         <div class="items">
             <div class="images" id="product-12"></div>
             <div class="item-title">
@@ -175,6 +205,7 @@
             </div> 
         </div>
         
+        <!-- Item-13 -->
         <div class="items">
             <div class="images" id="product-13"></div>
             <div class="item-title">
@@ -183,6 +214,7 @@
             </div> 
         </div>
         
+        <!-- Item-14 -->
         <div class="items">
             <div class="images" id="product-14"></div>
             <div class="item-title">
@@ -191,6 +223,7 @@
             </div> 
         </div>
         
+        <!-- Item-15 -->
         <div class="items">
             <div class="images" id="product-15"></div>
             <div class="item-title">
@@ -200,15 +233,17 @@
         </div>
         
     </div>
+<!-- Item container end -->
 
+<!-- More Button -->
     <div class="view-all-btn">
         <button class="btn">
             <div class="layer"></div>
             view all trending
-        </button>
-       
+        </button>   
     </div>
-
+<!-- More button end -->
+<!-- Footer Start -->
     <footer>
         <div class="footer-menu">
             <ul>
@@ -222,5 +257,6 @@
             <h6>© SPACEX STORE</h6>
         </div>
     </footer>
+<!-- Footer end -->
 </body>
 </html>

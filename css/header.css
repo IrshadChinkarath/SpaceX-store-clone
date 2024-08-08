@@ -1,4 +1,4 @@
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 *{
     font-family: "DIN Neuzeit Grotesk LT W01 Lt";
     box-sizing: border-box;
@@ -15,14 +15,19 @@ html{
     width: 100vw;
     height: 84px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: black;
     color: aliceblue;
-    padding-left: 1%;
-    padding-right: 1%;
-    z-index: 1;
+    z-index: 2;
+    padding: 18px 50px;
 }
+
+.navbar .row{
+    display: flex;
+    background-color: aqua;
+}
+
 .logo{ 
     width: 10%;
     height: 100%;
@@ -30,41 +35,46 @@ html{
     justify-content: center;
     align-items: center; 
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;   
 }
-.logo img{ 
-    width: 155px;
+.logo img{  
+    width: 100%;
+    height: auto;
 }
 .menu{
     width: 100%;
+    height: 100%;
     margin-left: 10px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-
 }
 .menu .drop-menu-section{
     margin-left: 10px;
     display: flex;
     justify-content: flex-start;
 }
-/*Drop down menu list*/
 
-.dropbtn {
-    background-color: transparent;
-    color: white;
-    padding: 16px;
-    border: none;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-}
+/*Drop down menu list*/
 .dropdown-menu {
     position: relative;
     height: 100%;
     display: inline-block;
 }
-.dropdown-content {
+
+.dropdown-menu .drop-btn {
+    background-color: transparent;
+    font-family: "DIN Neuzeit Grotesk LT W01 Lt";
+    color: white;
+    padding: 16px;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.dropdown-list {
     display: none;
     position: absolute;
     width: 200px;
@@ -77,13 +87,14 @@ html{
     z-index: 1;
     transition: width 6s ease;
 }
-.dropdown-content a {
+.dropdown-list a {
+    display: block;  
+    font-family: "DIN Neuzeit Grotesk LT W01 Lt";
     color: white;
     padding: 10px 16px;
     font-size: 14px;
     text-decoration: none;
     font-weight: 200;
-    display: block;   
 }
 
 .top-line {
@@ -94,14 +105,14 @@ html{
     background-color: antiquewhite;
 }
 
-.dropdown-content a:hover {
+.dropdown-list a:hover {
     color: #888787;
 }
-.dropdown-menu:hover .dropdown-content {
+.dropdown-menu:hover .dropdown-list {
     display: block;
 }
 
-.dropdown-menu:hover .dropdown-content .top-line {
+.dropdown-menu:hover .dropdown-list .top-line {
     animation: zoom 0.2s ease-in-out ;
 }
 
@@ -110,18 +121,123 @@ html{
     to {width:99%;}
 }
 
-/* ------------------------------- */
+/* For Small devices */
+.nav-mini{
+    display: none;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 84px; 
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    z-index: 2;
+    padding: 18px 30px;
+}
+.nav-mini .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.nav-mini .col{
+    margin: 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.col-span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.col-span #btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 22px;
+    height: 15px;
+    
+    
+}
+.bar{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+.col-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    gap: 15px;
+}
+@media screen and (max-width: 400px) {
+    .navbar{
+        display: none;
+    }
+    .nav-mini{
+        display: flex;
+        padding: 15px 18px;
+    }
+    .nav-mini .row{
+        display: flex; 
+    }
+    .nav-mini .col{
+        display: flex;
+    }
+    .logo img{  
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .col-icon{   
+        font-size: 12px;
+        gap: 10px;
+    }
+    .col-span #btn{
+        width: 17px;
+        height: 12px;   
+    }
+    .bar{
+        height: 1px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .navbar{
+        display: none;
+    }
+    .nav-mini{
+        display: flex;
+        height: 64px; 
+    }
+    .nav-mini .row{
+        display: flex; 
+    }
+    .nav-mini .col{
+        display: flex;
+    }
+  
+  
+}
+
+
+/* User section */
+
 .navbar-links ul{
     display: flex;
 }
 .navbar-links ul li{
+    display: block;
     list-style: none;
     position: relative;
 }
 .navbar-links ul li a{
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     padding: 16px;
     display: block;
     text-transform: uppercase;
@@ -130,10 +246,14 @@ html{
 }
 .navbar-links ul li a{
     color: rgb(134, 126, 126);
+    transition: 0.2s color ;
 }
+
+.navbar-links ul li .active {
+    color: white;
+}
+
 .navbar-links.cart-section ul li a:hover{
     color: rgb(255, 255, 255);
 }
-#cart a{
-    color: white;
-}
+
