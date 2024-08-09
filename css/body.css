@@ -1,6 +1,6 @@
 /* Global styles */
 @import url(https://db.onlinewebfonts.com/c/76e8830038ab225cdb852f902d207c72?family=DIN+Neuzeit+Grotesk+LT+W01+Lt);
-*{font-family: "DIN Neuzeit Grotesk LT W01 Lt";}
+*{font-family: "DIN Neuzeit Grotesk LT W01 Lt" , "Roboto", sans-serif;}
 
 body {
     background-color: white;
